@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-08-20T07:58:31.933912+00:00",
+  "generated_at": "2026-08-20T08:48:46.670279+00:00",
   "items": [
+    {
+      "id": "1bc5392842d7f2f098b458ede1cbc8aaae1c8059ed8dd690fe832e26ade75996",
+      "title": "\"I don't know if they will keep funding that one\" - Former EA manager doesn't believe the next Mass Effect will survive Saudi takeover",
+      "link": "https://www.eurogamer.net/next-mass-effect-ea-bioware-saudi-ownership",
+      "source": "Eurogamer",
+      "category": "site",
+      "published": "2026-08-20T08:30:56+00:00"
+    },
+    {
+      "id": "5159ed3a95ce6f681113998ad5c60e0bad86c57fa546ed3917a2a0195ad07733",
+      "title": "Steam Users Have Until August 24 to Claim 2025 Simulation Game Completely Free of Charge",
+      "link": "https://gamerant.com/steam-free-games-august-2026-first-person-data-explorer/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T08:27:26+00:00"
+    },
+    {
+      "id": "a2d7ea895c6ad95eb1666da24a47d742a92b520f750e16fa6ab86e8e06a803f2",
+      "title": "STALKER 2 2.0 update and Cost of Hope DLC release countdown: Exact date and time",
+      "link": "https://www.destructoid.com/stalker-2-2-0-update-and-cost-of-hope-dlc-release-countdown-exact-date-and-time/",
+      "source": "Destructoid",
+      "category": "site",
+      "published": "2026-08-20T08:11:32+00:00"
+    },
+    {
+      "id": "4348d68e794ff1e1a585854c3fd0b16aa595dfd7e49c38901c08a42a026e9c6f",
+      "title": "Will the next Mass Effect actually release under EA's new owners? 'I'll believe it when I see it,' says former EA manager turned Newzoo analyst",
+      "link": "https://www.reddit.com/r/gaming/comments/1vtd4pb/will_the_next_mass_effect_actually_release_under/",
+      "source": "r/gaming",
+      "category": "reddit",
+      "published": "2026-08-20T08:01:22+00:00"
+    },
+    {
+      "id": "f081f95202d722d865f871bc1ef7257da7417fcf39af85af6fa0d00b392303b9",
+      "title": "Experts Explain How To Keep PS6 And Project Helix Price Under $1,000",
+      "link": "https://www.thegamer.com/how-ps6-xbox-project-helix-can-cost-less-than-1000/",
+      "source": "TheGamer",
+      "category": "site",
+      "published": "2026-08-20T08:00:14+00:00"
+    },
     {
       "id": "f4f9ba2f4c3162b997e88b8e30d8bce6acacd651707b6d29d2e587e0b9203dc4",
       "title": "Epic Games just launched Fortnite transition to UE6 with the new season",
@@ -2360,46 +2400,6 @@
       "source": "Nintendo Life",
       "category": "site",
       "published": "2026-08-18T16:30:00+00:00"
-    },
-    {
-      "id": "91181c5dd111b4473d72c6388fc0c8324ca58b0bf1dd6c5cb4cac3748098824e",
-      "title": "The Lantern of the Laughless Saint, a Morrowind-inspired RPG weirdfest out this week in early access, has immediately seduced me with dialogue camera hijinks",
-      "link": "https://www.rockpapershotgun.com/the-lantern-of-the-laughless-saint-a-morrowind-inspired-rpg-weirdfest-out-this-week-in-early-access-has-immediately-seduced-me-with-dialogue-camera-hijinks",
-      "source": "Rock Paper Shotgun",
-      "category": "site",
-      "published": "2026-08-18T16:14:29+00:00"
-    },
-    {
-      "id": "4ab34be3cbeb9a581864ff35ad0c37560ae44bf3487707d87b5c49005b0afd46",
-      "title": "You can play new, realistic FPS Wardogs for free this weekend",
-      "link": "https://www.pcgamesn.com/wardogs/new-closed-playtest",
-      "source": "PCGamesN",
-      "category": "site",
-      "published": "2026-08-18T16:14:04+00:00"
-    },
-    {
-      "id": "f7d01fc2a9857d4d8dbdc624e586bbeb1a9df59a62303f67405dcb0e76608144",
-      "title": "Marathon's limited time Ordnance Heist is a multi-run and map event that nets you a cool gun you can't keep",
-      "link": "https://www.rockpapershotgun.com/marathons-limited-time-ordnance-heist-is-a-multi-run-and-map-event-that-nets-you-a-cool-gun-you-cant-keep",
-      "source": "Rock Paper Shotgun",
-      "category": "site",
-      "published": "2026-08-18T16:09:20+00:00"
-    },
-    {
-      "id": "64e6bd165ac6ec199921b35c85c65eb84716239338ca867315ce2b655220239b",
-      "title": "Arc Raiders' map conditions 'will shift to fit specific regions' peak hours' as part of the latest Phantom Targets update",
-      "link": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-map-conditions-will-shift-to-fit-specific-regions-peak-hours-as-part-of-the-latest-phantom-targets-update/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-18T16:08:37+00:00"
-    },
-    {
-      "id": "0daa7745a2fbc54c6d8e03ea803712c081ff6cd4d27e929be35b28127138ecd7",
-      "title": "Guide: Best Final Fantasy Games, Ranked - Switch 2 And Nintendo Systems",
-      "link": "https://www.nintendolife.com/guides/best-final-fantasy-games-ranked-switch-2-and-nintendo-systems",
-      "source": "Nintendo Life",
-      "category": "site",
-      "published": "2026-08-18T16:00:00+00:00"
     }
   ]
 }
