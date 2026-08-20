@@ -1,6 +1,86 @@
 {
-  "generated_at": "2026-08-20T08:48:46.670279+00:00",
+  "generated_at": "2026-08-20T09:19:49.426871+00:00",
   "items": [
+    {
+      "id": "48f1dff4dfa367f250c55ad9ed4873ebdb0eddab9f25064b9de5138f8a5f092a",
+      "title": "The Odyssey becomes highest-grossing R-rated movie over Deadpool and Wolverine, and Ryan Reynolds has the perfect reaction",
+      "link": "https://www.gamesradar.com/entertainment/action-movies/the-odyssey-becomes-highest-grossing-r-rated-movie-over-deadpool-and-wolverine-and-ryan-reynolds-has-the-perfect-reaction/",
+      "source": "GamesRadar",
+      "category": "site",
+      "published": "2026-08-20T09:16:58+00:00"
+    },
+    {
+      "id": "bead711adf2c61e28937862173beb2ad7e523aae27c47d46076eb0c2bd69773e",
+      "title": "The Duskbloods gameplay leaks ahead of tomorrow's closed beta, showing  tense PvPbattles with guns, wolves, and velociraptors",
+      "link": "https://www.eurogamer.net/duskbloods-gameplay-leak-gameplay-pvp-battle-wolves-velociraptors",
+      "source": "Eurogamer",
+      "category": "site",
+      "published": "2026-08-20T09:16:31+00:00"
+    },
+    {
+      "id": "a7b2269132301ec64b92a552f650c6465c6478205ab6b1275743c00a74802898",
+      "title": "New Naruto Anime Could Be Announced Soon: Here's Everything We Know",
+      "link": "https://www.polygon.com/naruto-new-anime-revealed-new-york-comic-con/",
+      "source": "Polygon",
+      "category": "site",
+      "published": "2026-08-20T09:15:59+00:00"
+    },
+    {
+      "id": "1e6dba799099dfc2d33e6750d38959b4f705fb9210b130de0363ef44f56ff38c",
+      "title": "Why are creepy games always set in Washington?",
+      "link": "https://www.polygon.com/video/why-are-creepy-games-always-set-in-washington/",
+      "source": "Polygon",
+      "category": "site",
+      "published": "2026-08-20T09:13:12+00:00"
+    },
+    {
+      "id": "1ac37f0ac96a7e43e3cb1aa2c7c84fd1b51437a8625d88bf77025cfc2329627f",
+      "title": "Take-Two May Be Entering a Brand-New AAA Field After GTA 6, Report Says",
+      "link": "https://gamerant.com/take-two-small-axe-aaa-soccer-game-rumor/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T09:00:12+00:00"
+    },
+    {
+      "id": "0e75eb0c7aa424d70123d9c3f936cf087b2ca5091bc97a148ea3b284e19300f3",
+      "title": "Games Done Quick is a beacon of hope for the gaming community",
+      "link": "https://www.eurogamer.net/games-done-quick-optimism-week-hope",
+      "source": "Eurogamer",
+      "category": "site",
+      "published": "2026-08-20T09:00:00+00:00"
+    },
+    {
+      "id": "2e4b849e6597e2f04513f31986723a9a0d99e144dfb9908dccb7c8f53223c658",
+      "title": "Black Myth: Wukong's Follow-Up, Zhong Kui, Looks Absolutely Stunning in New Gameplay",
+      "link": "https://www.pushsquare.com/news/2026/08/black-myth-wukongs-follow-up-zhong-kui-looks-absolutely-stunning-in-new-gameplay",
+      "source": "Push Square",
+      "category": "site",
+      "published": "2026-08-20T09:00:00+00:00"
+    },
+    {
+      "id": "fdd436af89f2ddad5fd2099321b02e4f079d0fe2f22f5193d5a4160b484901c8",
+      "title": "Dota 2 The International 2026: Schedule, results, standings, teams, and how to watch",
+      "link": "https://dotesports.com/dota-2/news/dota-2-ti-2026-schedule-results",
+      "source": "Dot Esports",
+      "category": "site",
+      "published": "2026-08-20T08:56:34+00:00"
+    },
+    {
+      "id": "61bda29b5b53a0472a67eba9c9cd7e57a0e9d7fc7bc1a941a7f41e99a13b34e4",
+      "title": "Former EA Boss Unconvinced New Mass Effect Will Ever Be Released",
+      "link": "https://www.thegamer.com/ea-manager-will-mass-effect-game-release-new-owners/",
+      "source": "TheGamer",
+      "category": "site",
+      "published": "2026-08-20T08:52:28+00:00"
+    },
+    {
+      "id": "977655021a32bd97f306a0e8bc0e668869ebbc1ae152596dbb740aef74b804e0",
+      "title": "Resident Evil Requiem on PS5 Drops to a New Low Price at Amazon and Best Buy of $54",
+      "link": "https://www.ign.com/articles/resident-evil-requiem-ps5-amazon-best-buy-deal",
+      "source": "IGN",
+      "category": "site",
+      "published": "2026-08-20T08:44:51+00:00"
+    },
     {
       "id": "1bc5392842d7f2f098b458ede1cbc8aaae1c8059ed8dd690fe832e26ade75996",
       "title": "\"I don't know if they will keep funding that one\" - Former EA manager doesn't believe the next Mass Effect will survive Saudi takeover",
@@ -24,6 +104,14 @@
       "source": "Destructoid",
       "category": "site",
       "published": "2026-08-20T08:11:32+00:00"
+    },
+    {
+      "id": "7b073deb9167a09ad875df82281a6a1008f0c2b71b259de8a696c78cf5c4b2f9",
+      "title": "Former Tekken 8 Director Kohei Ikeda Joins VS Studio, Re-Teams With Tekken Veteran Katsuhiro Harada",
+      "link": "https://www.ign.com/articles/former-tekken-8-director-kohei-ikeda-joins-vs-studio-re-teams-with-tekken-veteran-katsuhiro-harada",
+      "source": "IGN",
+      "category": "site",
+      "published": "2026-08-20T08:08:16+00:00"
     },
     {
       "id": "4348d68e794ff1e1a585854c3fd0b16aa595dfd7e49c38901c08a42a026e9c6f",
@@ -136,14 +224,6 @@
       "source": "Game Rant",
       "category": "site",
       "published": "2026-08-20T06:20:45+00:00"
-    },
-    {
-      "id": "fdd436af89f2ddad5fd2099321b02e4f079d0fe2f22f5193d5a4160b484901c8",
-      "title": "Dota 2 The International 2026: Schedule, results, standings, teams, and how to watch",
-      "link": "https://dotesports.com/dota-2/news/dota-2-ti-2026-schedule-results",
-      "source": "Dot Esports",
-      "category": "site",
-      "published": "2026-08-20T05:20:30+00:00"
     },
     {
       "id": "a67f90ab234063bed67c53d2607b15af22d00fcf510fd23215969975eb72f5d5",
@@ -2320,86 +2400,6 @@
       "source": "Push Square",
       "category": "site",
       "published": "2026-08-18T18:00:00+00:00"
-    },
-    {
-      "id": "a0e4401e9ae0caffceac110ac238b9c814b32cbac60a1e0c3512ab883e52fb30",
-      "title": "Epic Mickey creator Warren Spector is 'a little bitter' that his studio isn't getting props for sparking Oswald the Lucky Rabbit's big comeback",
-      "link": "https://www.pcgamer.com/movies-tv/epic-mickey-creator-warren-spector-is-a-little-bitter-that-his-studio-isnt-getting-props-for-sparking-oswald-the-lucky-rabbits-big-comeback/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-18T17:46:54+00:00"
-    },
-    {
-      "id": "0c26730365a7752e1bdf67f95530c92870e0580105e6b21a2ff55a7b3933245e",
-      "title": "Subnautica 2's Buddy System update brings in the promised proximity chat, easier trading, and emotes so you can sarcastically applaud your friends",
-      "link": "https://www.rockpapershotgun.com/subnautica-2s-buddy-system-update-brings-in-the-promised-proximity-chat-easier-trading-and-emotes-so-you-can-sarcastically-applaud-your-friends",
-      "source": "Rock Paper Shotgun",
-      "category": "site",
-      "published": "2026-08-18T17:15:38+00:00"
-    },
-    {
-      "id": "9ecff547251e4bc62ae872c182e65789d024fe90e008e790edae53fb97915f23",
-      "title": "I modded GTA 5 into a life-sim RPG with mining, foraging, a mini-economy, and the ability to fall asleep in the middle of the road",
-      "link": "https://www.pcgamer.com/games/grand-theft-auto/i-modded-gta-5-into-a-life-sim-rpg-with-mining-foraging-a-mini-economy-and-the-ability-to-fall-asleep-in-the-middle-of-the-road/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-18T17:00:00+00:00"
-    },
-    {
-      "id": "4845f775e26e26f2a94c68b355de19801fbc0d26ed678e2b1cb56abadea2c446",
-      "title": "Gallery: Celebrating Oblivion Remastered's Switch 2 Physical With Some Bethesda Goodies",
-      "link": "https://www.nintendolife.com/news/2026/08/gallery-celebrating-oblivion-remastereds-switch-2-physical-with-some-bethesda-goodies",
-      "source": "Nintendo Life",
-      "category": "site",
-      "published": "2026-08-18T17:00:00+00:00"
-    },
-    {
-      "id": "729487b8e9500bd4232099fcda7a71132c164a0d8c5d7b1edb23d5317a4f61fc",
-      "title": "You'll Want the Japanese Version of a New PS Plus Classic Out Today",
-      "link": "https://www.pushsquare.com/news/2026/08/youll-want-the-japanese-version-of-a-new-ps-plus-classic-out-today",
-      "source": "Push Square",
-      "category": "site",
-      "published": "2026-08-18T17:00:00+00:00"
-    },
-    {
-      "id": "250d0a44d2227703004e3068039367da5561010f020c60d5ff7ff9b4c0272c70",
-      "title": "Is a $1,200 gaming PC build in 2026 still possible?",
-      "link": "https://www.pcgamesn.com/1200-dollar-gaming-pc-build-2026",
-      "source": "PCGamesN",
-      "category": "site",
-      "published": "2026-08-18T16:42:57+00:00"
-    },
-    {
-      "id": "1509e70610ad24a08cc0a8819256712c965a169100fb81788590bf9745b3bc69",
-      "title": "The new Framework 12 laptop's secret weapon is its battery life courtesy of Intel's Wildcat Lake",
-      "link": "https://www.pcgamer.com/hardware/gaming-laptops/the-new-framework-12-laptops-secret-weapon-is-its-battery-life-courtesy-of-intels-wildcat-lake/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-18T16:32:08+00:00"
-    },
-    {
-      "id": "206a6eae938da5fa1bf734d3e8bb2e8f5bbc98a9012f3c44d1ca5dd43ab59c86",
-      "title": "The 3DMark Port Royal world record has been beaten, and all it took was a $5,000+ liquid nitrogen-cooled RTX 5090",
-      "link": "https://www.pcgamer.com/hardware/the-3dmark-port-royal-world-record-has-been-beaten-and-all-it-took-was-a-usd5-000-liquid-nitrogen-cooled-rtx-5090/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-18T16:31:29+00:00"
-    },
-    {
-      "id": "4674ce9b824ed26e62451235622b87ecdc4528d0184a5148c04eabb53f000e4d",
-      "title": "The memory crisis led me down a rabbit hole into nations forming rival factions to secure the flow of computer chips and AI, with names that wouldn't sound out of place in a Command & Conquer reboot",
-      "link": "https://www.pcgamer.com/hardware/the-memory-crisis-led-me-down-a-rabbit-hole-into-nations-forming-rival-factions-to-secure-the-flow-of-computer-chips-and-ai-with-names-that-wouldnt-sound-out-of-place-in-a-command-and-conquer-reboot/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-18T16:30:51+00:00"
-    },
-    {
-      "id": "29ef61f36c620b73d93593eae3c8c7f28ab86fa3954d11e45212166fbb9887a9",
-      "title": "Video: Elden Ring Gameplay Showcase Released Ahead Of Switch 2 Launch",
-      "link": "https://www.nintendolife.com/news/2026/08/video-elden-ring-gameplay-showcase-released-ahead-of-switch-2-launch",
-      "source": "Nintendo Life",
-      "category": "site",
-      "published": "2026-08-18T16:30:00+00:00"
     }
   ]
 }
