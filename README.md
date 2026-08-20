@@ -1,49 +1,37 @@
 # Gaming News Ticker
 
-A live feed of freshly-published gaming articles (publisher RSS + Reddit), refreshed on a
-schedule and shown on a self-updating web page — hosted for free on GitHub.
+A live feed of freshly-published gaming articles (publisher RSS + Reddit), polled on a schedule
+and shown on a self-updating web page.
 
-## How it works
+**Live site:** https://news-feed-worker.newsfeedsubdomain.workers.dev
 
-1. **`poller.py`** fetches every feed in `sources.json`, figures out which entries are new
-   since the last run (tracked in `data/seen_ids.json`), and writes the merged, deduped,
-   most-recent-first list to `docs/feed.json`.
-2. **`.github/workflows/poll.yml`** runs the poller on a schedule (every 5 minutes — GitHub's
-   practical floor for scheduled workflows) and commits the updated `feed.json` back to the repo.
-3. **`docs/index.html`** is a static page (served by GitHub Pages) that polls `feed.json` from
-   the browser every 30 seconds and renders the live list, newest first, with a brief highlight
-   flash on anything new. No backend server needed — GitHub hosts all of it.
+## How it works (current: Cloudflare Worker)
 
-## Setup (one-time)
+The live system is `cf-worker/` — see [`cf-worker/README.md`](cf-worker/README.md) for details.
+In short: a Cloudflare Worker polls all sources every 5 minutes via a Cron Trigger, stores the
+merged/deduped feed in Workers KV, and serves both the JSON feed and the dashboard itself from
+the same Worker. No GitHub Actions or Pages involved in the live path anymore.
 
-1. Create a new GitHub repo and push this folder to it.
-2. In the repo, go to **Settings → Pages** and set the source to the `docs/` folder on your
-   default branch. GitHub will give you a URL like `https://<you>.github.io/<repo>/` — that's
-   your live ticker page.
-3. Go to **Settings → Actions → General** and make sure Actions are enabled, and that
-   **Workflow permissions** is set to "Read and write permissions" (needed so the poller can
-   commit updates back).
-4. Go to the **Actions** tab, find "Poll news sources," and click **Run workflow** once to
-   confirm it works, before waiting for the schedule.
-5. (Optional) If you want an instant Slack ping too, not just the dashboard: create a Slack
-   Incoming Webhook URL, add it as a repo secret named `SLACK_WEBHOOK_URL`
-   (Settings → Secrets and variables → Actions), and the poller will post new items there
-   automatically — no code changes needed.
+## Legacy: GitHub Actions + Pages (retired 2026-08-20)
 
-That's it. From then on it runs unattended: every ~5 minutes GitHub checks all sources, and
-your ticker page picks up anything new within 30 seconds of that.
+The original version of this project (`poller.py`, `.github/workflows/poll.yml`, `docs/`) ran
+on GitHub Actions + Pages instead. It's kept in the repo for reference but its schedule trigger
+is disabled — GitHub's schedule trigger turned out to fire far less reliably than advertised in
+practice (observed gaps of 20-60+ minutes against a configured 5-minute interval, vs. Cloudflare
+Cron Triggers which fire on time). The `docs/` dashboard and `poller.py` still work if manually
+triggered (`workflow_dispatch` from the Actions tab), but nothing updates them automatically
+anymore. If you ever want to resurrect this path, re-add the `schedule:` trigger removed from
+`poll.yml`.
 
 ## On "instant"
 
 True stock-ticker instant (sub-minute) would need an always-on process rather than a scheduled
-job — this chat session can't host that (it isn't always-on either), and GitHub Actions'
-practical floor is ~5 minutes, sometimes more under load. If you outgrow that:
-
-- **Cloudflare Workers + Cron Triggers** support 1-minute schedules on the free tier and can
-  also serve the page — a rewrite of `poller.py`'s logic into a Worker, with KV instead of
-  files in git. Ask me to build this version if 5 minutes isn't fast enough.
-- A small always-on VM/container you control (Render, Fly.io, a VPS) polling every 30-60s is
-  the truest to "instant" but costs money and needs upkeep.
+job. Cloudflare Cron Triggers support down to 1-minute schedules, but Workers KV's free tier
+write budget (1,000 writes/day) caps how often a poll-and-write cycle can safely run — the
+current 5-minute interval was chosen to stay safely under that with room for the concurrency
+lock's extra writes (see `cf-worker/README.md`). A small always-on VM/container you control
+(Render, Fly.io, a VPS) polling every 30-60s would get closer to true "instant" but costs money
+and needs upkeep.
 
 ## Sources included
 

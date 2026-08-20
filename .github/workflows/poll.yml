@@ -1,11 +1,11 @@
 name: Poll news sources
 
 on:
-  schedule:
-    # Every 5 minutes -- GitHub's practical floor for scheduled workflows.
-    # Actual firing can lag a few minutes under GitHub Actions load; this is
-    # "as close to instant as free scheduled infra allows," not a guarantee.
-    - cron: "*/5 * * * *"
+  # Schedule trigger disabled 2026-08-20: polling moved to a Cloudflare
+  # Worker (see cf-worker/) which fires reliably every 5 minutes, unlike
+  # GitHub Actions' schedule trigger which in practice lagged 20-60+
+  # minutes under platform load. Kept as workflow_dispatch only, in case
+  # this needs to be resurrected as a fallback.
   workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
 
 permissions:

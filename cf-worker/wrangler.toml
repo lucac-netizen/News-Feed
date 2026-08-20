@@ -1,0 +1,15 @@
+name = "news-feed-worker"
+main = "src/index.js"
+compatibility_date = "2026-08-20"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.html"]
+fallthrough = true
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[[kv_namespaces]]
+binding = "FEED_KV"
+id = "6b8943c6588a4c68b72b88bc51e6fc67"
