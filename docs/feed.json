@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-20T03:08:57.192292+00:00",
+  "generated_at": "2026-08-20T03:57:13.491085+00:00",
   "items": [
+    {
+      "id": "4d19b2eab0ac950f38736043ac9f5ddaf5bfdf871c9b65535b359da9c37955b7",
+      "title": "ECLIPSE: The Awakening | Official In-Game Trailer",
+      "link": "https://www.reddit.com/r/gaming/comments/1vt8m6v/eclipse_the_awakening_official_ingame_trailer/",
+      "source": "r/gaming",
+      "category": "reddit",
+      "published": "2026-08-20T03:52:27+00:00"
+    },
+    {
+      "id": "a6b0f22d3e95a832bb4bdfea5a05be7bc947b65bc094ce9127629c3a2d9b407b",
+      "title": "Two very different takes on countering: Black Myth and Phantom Blade Zero.",
+      "link": "https://www.reddit.com/r/gaming/comments/1vt8gpu/two_very_different_takes_on_countering_black_myth/",
+      "source": "r/gaming",
+      "category": "reddit",
+      "published": "2026-08-20T03:45:06+00:00"
+    },
+    {
+      "id": "966d63a9302422a3d3e92dbfb976859aa16de2d51ef8115753eebf3e8e407bfe",
+      "title": "Nintendo Today! App Updated To Version 4.1.0, Adds Some New Features",
+      "link": "https://www.nintendolife.com/news/2026/08/nintendo-today-app-updated-to-version-4-1-0-adds-some-new-features",
+      "source": "Nintendo Life",
+      "category": "site",
+      "published": "2026-08-20T03:30:00+00:00"
+    },
     {
       "id": "51a4d894cecb5c03ad93942a5b15ca85be1f7a3fe1523ae72394607c7c54f145",
       "title": "DICE, Did You Playtest This?\": Battlefield 6 Carrier Spawn Camping Exposes EA's Quality Control Issues",
@@ -2376,30 +2400,6 @@
       "source": "Automaton",
       "category": "site",
       "published": "2026-08-18T14:00:00+00:00"
-    },
-    {
-      "id": "587e266433979feb285cac0e1d95200687f7adb346101fb63476c3ce4ab4d95e",
-      "title": "Star Wars: Galactic Racer's multiplayer 'tour' mode is a chaotic arcade racer spliced with a MOBA, and that somehow works brilliantly",
-      "link": "https://www.pcgamer.com/games/racing/star-wars-galactic-racers-multiplayer-tour-mode-is-a-chaotic-arcade-racer-spliced-with-a-moba-and-that-somehow-works-brilliantly/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-18T13:57:51+00:00"
-    },
-    {
-      "id": "891c8cbe3d478d8d1c68e87c43a5c4399d0e146b853723564973d5b8948f2e7c",
-      "title": "Don't boycott Grand Theft Auto 6, say workers fired by Rockstar - buy a T-shirt to help fund the legal battle instead",
-      "link": "https://www.eurogamer.net/rockstar-workers-dont-boycott-grand-theft-auto-6-support-union-costs",
-      "source": "Eurogamer",
-      "category": "site",
-      "published": "2026-08-18T13:27:24+00:00"
-    },
-    {
-      "id": "56bf027d0e64a9f27f470c1c542cc8081e8beec6e0f373ef62fd97396577134d",
-      "title": "Apple Faces Up is a puzzle game where rewriting the books of a celestial library changes the laws of reality, out for free on Steam",
-      "link": "https://automaton-media.com/en/indie-games/apple-faces-up-is-a-puzzle-game-where-rewriting-the-books-of-a-celestial-library-changes-the-laws-of-reality-out-for-free-on-steam/",
-      "source": "Automaton",
-      "category": "site",
-      "published": "2026-08-18T13:00:00+00:00"
     }
   ]
 }
