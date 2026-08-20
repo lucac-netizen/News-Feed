@@ -6,113 +6,226 @@
 <title>Gaming News Ticker</title>
 <style>
   :root {
-    --bg: #0b0d12;
-    --panel: #12151c;
-    --border: #232733;
-    --text: #e6e8ee;
-    --muted: #8b93a7;
-    --accent: #5b8cff;
-    --new: #37d67a;
+    --header-bg: #6e0e1f;
+    --header-fg: #f5e6e8;
+    --bg: #f4f5f7;
+    --panel: #ffffff;
+    --border: #d7dae0;
+    --text: #16181d;
+    --muted: #6b7280;
+    --accent: #0a5ec4;
+    --hot: #1b7a3d;
+    --warm: #4f9d3a;
+    --mild: #b58900;
+    --cool: #c2740f;
+    --stale: #9ca3af;
+    --new-flash: #d7ecdd;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, "Segoe UI", sans-serif;
     background: var(--bg);
     color: var(--text);
+    font-size: 13px;
   }
-  header {
-    position: sticky;
-    top: 0;
-    background: rgba(11,13,18,0.92);
-    backdrop-filter: blur(6px);
+  a { color: inherit; }
+
+  .titlebar {
+    background: var(--header-bg);
+    color: var(--header-fg);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .titlebar .ticker { font-size: 15px; }
+  .titlebar .ticker small { font-weight: 400; opacity: 0.8; margin-left: 8px; font-size: 11px; }
+  .titlebar .clock { font-family: "Consolas", "SF Mono", monospace; font-size: 12px; opacity: 0.9; }
+
+  .tabbar {
+    background: var(--panel);
     border-bottom: 1px solid var(--border);
-    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    gap: 4px;
+  }
+  .tab {
+    appearance: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 10px 12px 8px;
+    cursor: pointer;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .subbar {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 8px 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 12px;
     flex-wrap: wrap;
-    gap: 12px;
-    z-index: 10;
   }
-  h1 { font-size: 18px; margin: 0; font-weight: 600; }
-  h1 span { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
-  .controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .subbar .left { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .subbar .title { font-weight: 700; font-size: 13px; }
+  .subbar .status { color: var(--muted); font-size: 11px; }
+  .info-wrap { position: relative; display: inline-block; }
+  .info-icon {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 15px; height: 15px; border-radius: 50%;
+    border: 1px solid var(--muted); color: var(--muted);
+    font-size: 10px; font-weight: 700; cursor: default;
+  }
+  .info-panel {
+    display: none;
+    position: absolute; top: 20px; left: 0; z-index: 20;
+    background: var(--panel); border: 1px solid var(--border);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    width: 240px; padding: 10px 12px; font-size: 11px; color: var(--text);
+    line-height: 1.6;
+  }
+  .info-wrap:hover .info-panel { display: block; }
+  .info-panel b { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); margin-bottom: 4px; }
+
+  .controls { display: flex; gap: 8px; align-items: center; }
   input[type="search"] {
-    background: var(--panel);
+    background: var(--bg);
     border: 1px solid var(--border);
     color: var(--text);
-    padding: 7px 10px;
-    border-radius: 6px;
-    font-size: 13px;
-    width: 200px;
+    padding: 5px 8px;
+    font-size: 12px;
+    width: 190px;
   }
-  select {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 7px 10px;
-    border-radius: 6px;
-    font-size: 13px;
-  }
-  #status { font-size: 12px; color: var(--muted); }
-  main { max-width: 860px; margin: 0 auto; padding: 12px 20px 60px; }
-  .item {
-    display: flex;
-    gap: 12px;
-    padding: 14px 12px;
+
+  main { max-width: 980px; margin: 0 auto; padding: 0 0 60px; }
+
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    position: sticky; top: 0;
+    background: #eceef1;
     border-bottom: 1px solid var(--border);
-    align-items: baseline;
+    text-align: left;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    padding: 6px 10px;
+    font-weight: 700;
   }
-  .item.is-new { animation: flash 2.2s ease-out 1; }
+  th.col-age { width: 90px; }
+  th.col-source { width: 170px; }
+
+  .group-row td {
+    background: #e4e7ec;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    padding: 4px 10px;
+    border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+  }
+
+  tbody tr.item-row { border-bottom: 1px solid var(--border); }
+  tbody tr.item-row:hover { background: #f0f4fa; }
+  tbody tr.item-row.is-new { animation: flash 2.4s ease-out 1; }
   @keyframes flash {
-    0% { background: rgba(55,214,122,0.16); }
+    0% { background: var(--new-flash); }
     100% { background: transparent; }
   }
-  .badge {
-    flex: 0 0 auto;
-    font-size: 11px;
-    color: var(--bg);
-    background: var(--accent);
-    padding: 2px 8px;
-    border-radius: 999px;
-    font-weight: 600;
+  td { padding: 6px 10px; vertical-align: top; }
+
+  .age-cell {
+    font-family: "Consolas", "SF Mono", monospace;
+    font-weight: 700;
+    font-size: 11.5px;
+    text-align: right;
+    color: #fff;
     white-space: nowrap;
   }
-  .badge.reddit { background: #ff5722; }
-  .item a {
-    color: var(--text);
-    text-decoration: none;
-    font-size: 15px;
-    line-height: 1.4;
-  }
-  .item a:hover { color: var(--accent); text-decoration: underline; }
-  .meta { color: var(--muted); font-size: 12px; flex: 0 0 auto; margin-left: auto; padding-left: 12px; white-space: nowrap; }
-  .empty { color: var(--muted); padding: 40px 12px; text-align: center; }
+  .age-hot   { background: var(--hot); }
+  .age-warm  { background: var(--warm); }
+  .age-mild  { background: var(--mild); }
+  .age-cool  { background: var(--cool); }
+  .age-stale { background: var(--stale); color: #f3f4f6; }
+
+  .source-cell { white-space: nowrap; font-size: 12px; }
+  .source-cell .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 6px; }
+  .dot-site { background: var(--accent); }
+  .dot-reddit { background: #d9541e; }
+
+  .headline-cell a { text-decoration: none; font-size: 13px; }
+  .headline-cell a:hover { color: var(--accent); text-decoration: underline; }
+
+  .empty { color: var(--muted); padding: 40px 12px; text-align: center; font-size: 13px; }
 </style>
 </head>
 <body>
-<header>
-  <h1>Gaming News Ticker <span id="status">loading…</span></h1>
+<div class="titlebar">
+  <div class="ticker">GAME<small>NEWS TICKER</small></div>
+  <div class="clock" id="clock"></div>
+</div>
+<div class="tabbar">
+  <button class="tab active" data-cat="">All Sources</button>
+  <button class="tab" data-cat="site">Publisher Sites</button>
+  <button class="tab" data-cat="reddit">Reddit</button>
+</div>
+<div class="subbar">
+  <div class="left">
+    <span class="title">Live Feed</span>
+    <span class="status" id="status">loading…</span>
+    <span class="info-wrap">
+      <span class="info-icon">i</span>
+      <span class="info-panel" id="infoPanel">
+        <b>About this feed</b>
+        16 publisher RSS feeds + 7 subreddits, polled every 5 minutes.<br>
+        <span id="infoDetail">—</span>
+      </span>
+    </span>
+  </div>
   <div class="controls">
     <input type="search" id="q" placeholder="Filter by keyword or source…">
-    <select id="cat">
-      <option value="">All sources</option>
-      <option value="site">Publisher sites</option>
-      <option value="reddit">Reddit</option>
-    </select>
   </div>
-</header>
-<main id="list"></main>
+</div>
+<main>
+  <table>
+    <thead>
+      <tr>
+        <th class="col-age">Age</th>
+        <th class="col-source">Source</th>
+        <th>Headline</th>
+      </tr>
+    </thead>
+    <tbody id="list"></tbody>
+  </table>
+</main>
 
 <script>
 const REFRESH_MS = 30000;
 let lastIds = new Set();
 let firstLoad = true;
+let activeCat = "";
+
+function ageMinutes(iso) {
+  return (Date.now() - new Date(iso).getTime()) / 60000;
+}
 
 function timeAgo(iso) {
-  const diffMs = Date.now() - new Date(iso).getTime();
-  const mins = Math.floor(diffMs / 60000);
+  const mins = Math.floor(ageMinutes(iso));
   if (mins < 1) return "just now";
   if (mins < 60) return mins + "m ago";
   const hrs = Math.floor(mins / 60);
@@ -120,34 +233,58 @@ function timeAgo(iso) {
   return Math.floor(hrs / 24) + "d ago";
 }
 
+function ageClass(iso) {
+  const m = ageMinutes(iso);
+  if (m < 5) return "age-hot";
+  if (m < 15) return "age-warm";
+  if (m < 40) return "age-mild";
+  if (m < 90) return "age-cool";
+  return "age-stale";
+}
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function rowHtml(it) {
+  const isNew = !firstLoad && !lastIds.has(it.id);
+  const dotClass = it.category === 'reddit' ? 'dot-reddit' : 'dot-site';
+  return `<tr class="item-row ${isNew ? 'is-new' : ''}">
+    <td class="age-cell ${ageClass(it.published)}">${timeAgo(it.published)}</td>
+    <td class="source-cell"><span class="dot ${dotClass}"></span>${escapeHtml(it.source)}</td>
+    <td class="headline-cell"><a href="${it.link}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a></td>
+  </tr>`;
+}
+
+function groupRowHtml(label) {
+  return `<tr class="group-row"><td colspan="3">${label}</td></tr>`;
+}
+
 function render(items) {
   const q = document.getElementById('q').value.trim().toLowerCase();
-  const cat = document.getElementById('cat').value;
   const filtered = items.filter(it => {
-    if (cat && it.category !== cat) return false;
+    if (activeCat && it.category !== activeCat) return false;
     if (q && !(it.title.toLowerCase().includes(q) || it.source.toLowerCase().includes(q))) return false;
     return true;
   });
 
   const list = document.getElementById('list');
   if (!filtered.length) {
-    list.innerHTML = '<div class="empty">No items match.</div>';
+    list.innerHTML = '<tr><td colspan="3" class="empty">No items match.</td></tr>';
     return;
   }
 
-  list.innerHTML = filtered.map(it => {
-    const isNew = !firstLoad && !lastIds.has(it.id);
-    const badgeClass = it.category === 'reddit' ? 'badge reddit' : 'badge';
-    return `<div class="item ${isNew ? 'is-new' : ''}">
-      <span class="${badgeClass}">${it.source}</span>
-      <a href="${it.link}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a>
-      <span class="meta">${timeAgo(it.published)}</span>
-    </div>`;
-  }).join('');
-}
+  if (activeCat) {
+    list.innerHTML = filtered.map(rowHtml).join('');
+    return;
+  }
 
-function escapeHtml(s) {
-  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const sites = filtered.filter(it => it.category !== 'reddit');
+  const reddit = filtered.filter(it => it.category === 'reddit');
+  let html = '';
+  if (sites.length) html += groupRowHtml('Publisher Sites') + sites.map(rowHtml).join('');
+  if (reddit.length) html += groupRowHtml('Reddit') + reddit.map(rowHtml).join('');
+  list.innerHTML = html;
 }
 
 async function load() {
@@ -158,6 +295,9 @@ async function load() {
     render(items);
     document.getElementById('status').textContent =
       'updated ' + timeAgo(data.generated_at) + ' · ' + items.length + ' items';
+    const durS = data.poll_duration_ms ? (data.poll_duration_ms / 1000).toFixed(0) + 's' : '—';
+    document.getElementById('infoDetail').textContent =
+      'Last cycle took ' + durS + '. Data as of ' + new Date(data.generated_at).toLocaleTimeString() + '.';
     lastIds = new Set(items.map(it => it.id));
     firstLoad = false;
   } catch (e) {
@@ -166,8 +306,22 @@ async function load() {
   }
 }
 
+function tick() {
+  document.getElementById('clock').textContent = new Date().toUTCString().slice(17, 25) + ' UTC';
+}
+
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeCat = btn.dataset.cat;
+    load();
+  });
+});
 document.getElementById('q').addEventListener('input', () => load());
-document.getElementById('cat').addEventListener('change', () => load());
+
+tick();
+setInterval(tick, 1000);
 load();
 setInterval(load, REFRESH_MS);
 </script>

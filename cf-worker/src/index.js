@@ -162,6 +162,20 @@ async function pollOnce(env) {
 
   try {
     await pollOnceLocked(env, startedAt);
+  } catch (e) {
+    // Without this, a thrown error (e.g. a KV quota error, an unexpected
+    // parse failure) vanishes silently -- indistinguishable in /feed.json
+    // from "still running", which made a real crash impossible to tell
+    // apart from a slow cycle during testing.
+    console.error(`[error] poll cycle failed: ${e && e.stack ? e.stack : e}`);
+    await env.FEED_KV.put(
+      "poll:last_error",
+      JSON.stringify({
+        at: new Date().toISOString(),
+        started_at: startedAt.toISOString(),
+        message: String(e && e.message ? e.message : e),
+      })
+    );
   } finally {
     await env.FEED_KV.delete(LOCK_KEY);
   }
@@ -260,6 +274,8 @@ export default {
         items: [],
       };
       const lastSkip = await env.FEED_KV.get("poll:last_skip", "json");
+      const lastError = await env.FEED_KV.get("poll:last_error", "json");
+      const lockHeld = await env.FEED_KV.get(LOCK_KEY);
       return new Response(
         JSON.stringify({
           generated_at: stored.generated_at,
@@ -267,6 +283,8 @@ export default {
           poll_started_at: stored.poll_started_at,
           poll_duration_ms: stored.poll_duration_ms,
           last_skip: lastSkip || null,
+          last_error: lastError || null,
+          lock_held_since: lockHeld || null,
         }),
         { headers: { "content-type": "application/json", "cache-control": "no-store" } }
       );
