@@ -1,0 +1,31 @@
+{
+  "_comment": "Feed list for the gaming news ticker. type: 'rss' for publisher feeds, 'reddit' for subreddit new-post feeds. Verify low-confidence entries yourself (curl -I <url>) before relying on them long-term -- publisher RSS URLs change without notice.",
+  "sites": [
+    { "name": "Kotaku", "url": "https://kotaku.com/rss", "confidence": "high" },
+    { "name": "IGN", "url": "https://www.ign.com/rss/v2/articles/feed", "confidence": "medium" },
+    { "name": "Polygon", "url": "https://www.polygon.com/rss/index.xml", "confidence": "high" },
+    { "name": "PC Gamer", "url": "https://www.pcgamer.com/rss/", "confidence": "high" },
+    { "name": "Eurogamer", "url": "https://www.eurogamer.net/rss/eurogamer_frontpage_feed.rss", "confidence": "high" },
+    { "name": "GamesRadar", "url": "https://www.gamesradar.com/all-platforms/news/rss/", "confidence": "high" },
+    { "name": "Rock Paper Shotgun", "url": "https://www.rockpapershotgun.com/feed/", "confidence": "high" },
+    { "name": "VG247", "url": "https://www.vg247.com/feed/", "confidence": "medium" },
+    { "name": "Destructoid", "url": "https://www.destructoid.com/feed/", "confidence": "low" },
+    { "name": "TheGamer", "url": "https://www.thegamer.com/feed/", "confidence": "medium" },
+    { "name": "Game Rant", "url": "https://gamerant.com/feed/", "confidence": "high" },
+    { "name": "Nintendo Life", "url": "http://www.nintendolife.com/feeds/latest", "confidence": "high" },
+    { "name": "Push Square", "url": "https://www.pushsquare.com/feeds/latest", "confidence": "high" },
+    { "name": "PCGamesN", "url": "https://www.pcgamesn.com/feed", "confidence": "high" },
+    { "name": "Dot Esports", "url": "https://www.dotesports.com/feed", "confidence": "medium" },
+    { "name": "Automaton", "url": "https://automaton-media.com/en/feed/", "confidence": "medium" }
+  ],
+  "reddit": [
+    { "name": "r/gaming", "url": "https://www.reddit.com/r/gaming/new/.rss" },
+    { "name": "r/Games", "url": "https://www.reddit.com/r/Games/new/.rss" },
+    { "name": "r/pcgaming", "url": "https://www.reddit.com/r/pcgaming/new/.rss" },
+    { "name": "r/PS5", "url": "https://www.reddit.com/r/PS5/new/.rss" },
+    { "name": "r/XboxSeriesX", "url": "https://www.reddit.com/r/XboxSeriesX/new/.rss" },
+    { "name": "r/NintendoSwitch", "url": "https://www.reddit.com/r/NintendoSwitch/new/.rss" },
+    { "name": "r/GamingLeaksAndRumours", "url": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss" }
+  ],
+  "_twitter_note": "No free/cheap real-time path exists as of 2026 (X API killed its subscription tiers for pay-per-use with no free tier; Nitter mirrors are unreliable). See README for options if you want it added later."
+}

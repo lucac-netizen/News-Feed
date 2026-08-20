@@ -1,0 +1,42 @@
+name: Poll news sources
+
+on:
+  schedule:
+    # Every 5 minutes -- GitHub's practical floor for scheduled workflows.
+    # Actual firing can lag a few minutes under GitHub Actions load; this is
+    # "as close to instant as free scheduled infra allows," not a guarantee.
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poll-news
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run poller
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python poller.py
+
+      - name: Commit updated feed if changed
+        run: |
+          git config user.name "news-ticker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/feed.json data/seen_ids.json
+          git diff --quiet --cached || git commit -m "Update feed [skip ci]"
+          git push
