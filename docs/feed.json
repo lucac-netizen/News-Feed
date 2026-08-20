@@ -1,6 +1,286 @@
 {
-  "generated_at": "2026-08-20T14:23:44.418744+00:00",
+  "generated_at": "2026-08-20T15:03:24.510360+00:00",
   "items": [
+    {
+      "id": "f8b9a8896dd608e74d106a5af611e46ebeaf6d3a238a1787f2b95c7a65274f18",
+      "title": "All FC 26 Rewind players and release countdown",
+      "link": "https://www.destructoid.com/all-fc-26-rewind-players-and-release-countdown/",
+      "source": "Destructoid",
+      "category": "site",
+      "published": "2026-08-20T15:03:07+00:00"
+    },
+    {
+      "id": "9e41f09ac24c1c06fc536a2678d9e31617e152a622273f4d304bdcc661b5ac8e",
+      "title": "This week's Epic Games Store free games include an MMO bundle worth over $55 and mutants invading the 90s",
+      "link": "https://www.pcgamesn.com/epic-games/free-games-this-week-august-20-august-27",
+      "source": "PCGamesN",
+      "category": "site",
+      "published": "2026-08-20T15:01:49+00:00"
+    },
+    {
+      "id": "eae24038064ba6e9596cf16ce8a2ef234dbd8687331fc2e26358188a39ab214b",
+      "title": "Epic Games Store Officially Reveals Its Final Free Games for August 2026",
+      "link": "https://gamerant.com/epic-games-store-august-2026-free-games-breathedge-rival-stars-horse/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T15:00:29+00:00"
+    },
+    {
+      "id": "191c8d6bdff4969550551cfcb778a91b6ec7d804eff9586687172fe565fce4b2",
+      "title": "A Pulitzer, a Movie, and Two Mind-Melting New Books — Best Year Ever?",
+      "link": "https://www.polygon.com/a-pulitzer-a-movie-and-two-mind-melting-new-horror-books-best-year-ever/",
+      "source": "Polygon",
+      "category": "site",
+      "published": "2026-08-20T15:00:14+00:00"
+    },
+    {
+      "id": "1c03e74e39343a8c190607546181b0fe9a35f86b72cac02ef531fd1f376059b5",
+      "title": "Casper Kelly’s Horror Movie Buddy Is Getting a Retro Game Boy Color Game",
+      "link": "https://www.ign.com/articles/casper-kelly-buddy-horror-game-boy-color-game",
+      "source": "IGN",
+      "category": "site",
+      "published": "2026-08-20T15:00:00+00:00"
+    },
+    {
+      "id": "56e034f52be252b8498e0071e3f55bac63a91102ff38cc1fe0bcff2de7da795c",
+      "title": "Kingdom Hearts 4 features Pixar's Coco because Tetsuya Nomura thought it \"would be the best world\" for Sora's story",
+      "link": "https://www.gamesradar.com/games/kingdom-hearts/kingdom-hearts-4-features-pixars-coco-because-tetsuya-nomura-thought-it-would-be-the-best-world-for-soras-story/",
+      "source": "GamesRadar",
+      "category": "site",
+      "published": "2026-08-20T14:59:51+00:00"
+    },
+    {
+      "id": "f9f8b6b7402313aa8a6e965a0c371319095b9077ffb28392d0543932e2bd614c",
+      "title": "Hold the throne, NBA 2K27's new MyNBA Legacy mode sounds a lot like basketball Crusader Kings 3",
+      "link": "https://www.rockpapershotgun.com/hold-the-throne-nba-2k27s-new-mynba-legacy-mode-sounds-a-lot-like-basketball-crusader-kings-3",
+      "source": "Rock Paper Shotgun",
+      "category": "site",
+      "published": "2026-08-20T14:59:32+00:00"
+    },
+    {
+      "id": "703c7f222fa75c297f68ccf127e739a5ccb7b39c701c2ac32c30c2d3d9b9d002",
+      "title": "PC Gamers Can Get 2 Great Games Completely Free of Charge From Epic for a Limited Time",
+      "link": "https://www.polygon.com/epic-games-store-free-games-8-20-2026-download/",
+      "source": "Polygon",
+      "category": "site",
+      "published": "2026-08-20T14:58:14+00:00"
+    },
+    {
+      "id": "c59e1928dbc133a43813aa6aa8429dcc7f5538a1712161bf4d29415ab8dec8c9",
+      "title": "All admin panel codes in Fortnite Chapter 7 Season 4",
+      "link": "https://www.polygon.com/fortnite-chapter-7-season-4-admin-panel-lobby-hack-codes-list-all/",
+      "source": "Polygon",
+      "category": "site",
+      "published": "2026-08-20T14:58:03+00:00"
+    },
+    {
+      "id": "7287faa02040292ed19d940a19a63a5e88c4568be52aa1006d0fd9b843d46285",
+      "title": "IO Interactive Celebrates 007 First Light Selling 4 Million Copies in 3 Months",
+      "link": "https://www.ign.com/articles/io-interactive-celebrates-007-first-light-selling-4-million-copies-in-3-months",
+      "source": "IGN",
+      "category": "site",
+      "published": "2026-08-20T14:57:14+00:00"
+    },
+    {
+      "id": "fffef4ce799e786fac842a2699a40100844a88299be5341e06e3cd0b30661bac",
+      "title": "All Sidearm locations in Mortal Shell 2 and how to get them",
+      "link": "https://www.destructoid.com/all-sidearm-locations-in-mortal-shell-2-and-how-to-get-them/",
+      "source": "Destructoid",
+      "category": "site",
+      "published": "2026-08-20T14:54:47+00:00"
+    },
+    {
+      "id": "10f8dfe697f88a768b2fb01bed58faac039405626c4e4bcd65d41c186f27be15",
+      "title": "Fortnite Override - Sprite Dust Guide (Loot Hacks, Explained)",
+      "link": "https://gamerant.com/fortnite-override-sprite-dust-loot-hacks/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T14:54:46+00:00"
+    },
+    {
+      "id": "41db56029794f553b9cac43ccdcea80624ca782fe1d89fd18ba0a6ebc66c4101",
+      "title": "How to unlock all endings in Mortal Shell 2: Main and Baghead ending guides",
+      "link": "https://www.destructoid.com/how-to-unlock-all-endings-in-mortal-shell-2-main-and-baghead-ending-guides/",
+      "source": "Destructoid",
+      "category": "site",
+      "published": "2026-08-20T14:54:00+00:00"
+    },
+    {
+      "id": "7ecc2f36d40260a0e1ae09d73aef7020fc953ee03aa992c92dd5978109da5682",
+      "title": "How to Get to the Repeater (Unexpected Alliance) in Stalker 2: Cost of Hope",
+      "link": "https://gamerant.com/stalker-2-cost-of-hope-unexpected-alliance-climb-repeater/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T14:53:23+00:00"
+    },
+    {
+      "id": "aeb607b4eeb3a9bbb1c0960010a1c988376d5bc35c12cb08e80150fb11eb98fe",
+      "title": "Valve chief Gabe Newell makes a rare public appearance as \"New Chad Gabe\" and rings in Dota 2's biggest tournament",
+      "link": "https://www.gamesradar.com/games/valve-chief-gabe-newell-makes-a-rare-public-appearance-as-new-chad-gabe-and-rings-in-dota-2s-biggest-tournament/",
+      "source": "GamesRadar",
+      "category": "site",
+      "published": "2026-08-20T14:50:28+00:00"
+    },
+    {
+      "id": "be4816cb9629546d123b2997ffea4f55072f1c769a8a74c54a0eeaac1fddc8f9",
+      "title": "Mascot Party's Tokyo City Dango Area Location in FH6",
+      "link": "https://gamerant.com/forza-horizon-6-delicious-dango-photo-mascot-party-tokyo-city-area/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T14:50:14+00:00"
+    },
+    {
+      "id": "3c453999711985a2eaf726d843e74e7df2f4ee2513b7ac1cc0c6a92737746110",
+      "title": "Final Fantasy: Crystal Chronicles composer speaks out about AI-generated Spotify album falsely using her name",
+      "link": "https://www.eurogamer.net/final-fantasy-crystal-chronicles-composer-kumi-tanioka-ai-spotify",
+      "source": "Eurogamer",
+      "category": "site",
+      "published": "2026-08-20T14:48:07+00:00"
+    },
+    {
+      "id": "0707db4fa2c60b680b64e99b984cf3dc4d17b0722fd1969cb556391fe19995cb",
+      "title": "The Witcher 3 Is Getting New Fan-Made Expansion In 2027",
+      "link": "https://www.thegamer.com/the-witcher-3-fan-made-expansion-2027/",
+      "source": "TheGamer",
+      "category": "site",
+      "published": "2026-08-20T14:46:15+00:00"
+    },
+    {
+      "id": "cd4c7a8406aa12c3f5a776ffad76b39767686653d384e3dd9c106375bf79029b",
+      "title": "New Pokémon TCG Pocket Expansion Gives Team Rocket A Shot",
+      "link": "https://www.polygon.com/pokemon-tcg-pocket-team-rockets-ambition-expansion-announced/",
+      "source": "Polygon",
+      "category": "site",
+      "published": "2026-08-20T14:46:11+00:00"
+    },
+    {
+      "id": "a8745f055e6de5595cdb933e18d43a003d7b0684d7e3bdc2d9cd8d5f5cfdf0a4",
+      "title": "Orbitals – Main Theme \"Accelerating Destiny\"",
+      "link": "https://www.reddit.com/r/gaming/comments/1vtliv8/orbitals_main_theme_accelerating_destiny/",
+      "source": "r/gaming",
+      "category": "reddit",
+      "published": "2026-08-20T14:46:05+00:00"
+    },
+    {
+      "id": "4f94c54d271bafa38dfcb95297dea644774d10e9394f7e5e4ff23adc702d2cf5",
+      "title": "Subnautica 2′s Co-Op Buddy System Update Is Live, And Has The Coolest Chat",
+      "link": "https://kotaku.com/subnautica-2-buddy-system-update-co-op-1-2-patch-notes-unknown-worlds-2000726159",
+      "source": "Kotaku",
+      "category": "site",
+      "published": "2026-08-20T14:45:57+00:00"
+    },
+    {
+      "id": "380ac0876efd124598b4fed2423704f3eb2fe8dd70c60ea4e7b527e286eaff56",
+      "title": "Beyerdynamic has two new additions arriving to its MMX headset range, and I'm hyped if they're as good as the last I tested",
+      "link": "https://www.gamesradar.com/hardware/headsets-headphones/beyerdynamic-has-two-new-additions-arriving-to-its-mmx-headset-range-and-im-hyped-if-theyre-as-good-as-the-last-i-tested/",
+      "source": "GamesRadar",
+      "category": "site",
+      "published": "2026-08-20T14:45:36+00:00"
+    },
+    {
+      "id": "3fcea16937542f6804190f99341493ccfc54f7b6b4d5b7e650e6160e953186a7",
+      "title": "10 Twilight Zone Episodes That Would Make Excellent Films",
+      "link": "https://gamerant.com/twilight-zone-episodes-perfect-for-movie-remakes/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T14:45:12+00:00"
+    },
+    {
+      "id": "73dc4b6eb2327da268ead642fb623d0c7c8f48bd2dbbd3c3f39dcad320242d39",
+      "title": "All Missing Sprites in Fortnite Override, Explained",
+      "link": "https://gamerant.com/fortnite-missing-sprites-explained/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T14:38:04+00:00"
+    },
+    {
+      "id": "7f90f6bc6f1c83f3d74f9e1240249a67fbf78e006b1c94ae120fe6eb907a238a",
+      "title": "Unboxing videos of the Steam Frame have been leaked, giving us a closer look at the long-awaited VR headset",
+      "link": "https://www.pcgamer.com/hardware/vr-hardware/unboxing-videos-of-the-steam-frame-have-been-leaked-giving-us-a-closer-look-at-the-long-awaited-vr-headset/",
+      "source": "PC Gamer",
+      "category": "site",
+      "published": "2026-08-20T14:36:01+00:00"
+    },
+    {
+      "id": "05f2025b41caa7041c5acaee95cb81ee1bd5e2b0de0482f9c3f947ec397a7202",
+      "title": "ARC Raiders Announces Unexpected Collaboration With Special Rewards",
+      "link": "https://gamerant.com/arc-raiders-subway-collaboration-rewards/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T14:35:05+00:00"
+    },
+    {
+      "id": "8bdae3697ad81f40b467ce3093ffb12c072bb7b5bc6709c73bdc30f12d18eaf9",
+      "title": "Fizz And EB Games Team Up To Create A Special Starter Pack That’s Perfect For Mobile Gamers",
+      "link": "https://www.polygon.com/fizz-eb-games-starter-pack/",
+      "source": "Polygon",
+      "category": "site",
+      "published": "2026-08-20T14:33:14+00:00"
+    },
+    {
+      "id": "6ac29eba3bedd06f70557d09ea21ce0f1940b6188ef5547050c77045939efa16",
+      "title": "Halo Co-Creator Says The Series Died Because It Was Outsourced",
+      "link": "https://www.thegamer.com/halo-co-creator-ideas-for-new-game/",
+      "source": "TheGamer",
+      "category": "site",
+      "published": "2026-08-20T14:31:29+00:00"
+    },
+    {
+      "id": "49516045581b12762b97d883a5a4aa16f132ae0f6702c28796f961f73f437a45",
+      "title": "New Steam Game is Basically BioShock, But Way Creepier",
+      "link": "https://gamerant.com/steam-games-like-bioshock-twisted-tower/",
+      "source": "Game Rant",
+      "category": "site",
+      "published": "2026-08-20T14:31:12+00:00"
+    },
+    {
+      "id": "d9fcb331505eb6601b427ece442a5c2c6d70596d5be83abe76be2e40f07c43a0",
+      "title": "What if there was a company that did an official \"print on demand\" service, but for video games and consoles?",
+      "link": "https://www.reddit.com/r/gaming/comments/1vtl4ck/what_if_there_was_a_company_that_did_an_official/",
+      "source": "r/gaming",
+      "category": "reddit",
+      "published": "2026-08-20T14:30:12+00:00"
+    },
+    {
+      "id": "23470a1f5ddbf7b15d476ca8f3466448017d35f6be8a2ef16fd809e77cc57df2",
+      "title": "MTG Star Trek Play Booster Box Preorders Are Already Discounted at Amazon",
+      "link": "https://www.ign.com/articles/mtg-star-trek-booster-box-preorder-discount",
+      "source": "IGN",
+      "category": "site",
+      "published": "2026-08-20T14:30:00+00:00"
+    },
+    {
+      "id": "45c0827380de205edfaef48cb0a516ab7c5b3feca6f01fbb3af9dc5a1540e169",
+      "title": "I Didn't Have a Golden Axe Cartoon on My 2026 Bingo Card",
+      "link": "https://www.pushsquare.com/news/2026/08/i-didnt-have-a-golden-axe-cartoon-on-my-2026-bingo-card",
+      "source": "Push Square",
+      "category": "site",
+      "published": "2026-08-20T14:30:00+00:00"
+    },
+    {
+      "id": "cdf7841c97f32ed606a16a8d0b316c89877672500b37673c0f07a298c38e7dd1",
+      "title": "A cracked version of Marvel Tōkon is reigniting questions around DRM and its impact on PC games",
+      "link": "https://www.eurogamer.net/marvel-tokon-fighting-souls-crack-drm-performance",
+      "source": "Eurogamer",
+      "category": "site",
+      "published": "2026-08-20T14:29:40+00:00"
+    },
+    {
+      "id": "244315d36a3cbd528c8b2f15a2f98fe079d7692fcaefe277f89aa4f2ce136749",
+      "title": "All Fortnite admin panel codes for lobby hack",
+      "link": "https://www.pcgamesn.com/fortnite/lobby-hack-codes",
+      "source": "PCGamesN",
+      "category": "site",
+      "published": "2026-08-20T14:26:57+00:00"
+    },
+    {
+      "id": "93c1ab39ef35b89bc0dbe4b947b4df139baaddf7aaa7d86ae3795bebf4d23fe5",
+      "title": "Frustrated ARC Raiders players looking for more playable content are getting a sandwich instead",
+      "link": "https://www.destructoid.com/frustrated-arc-raiders-playable-content-sandwich-instead/",
+      "source": "Destructoid",
+      "category": "site",
+      "published": "2026-08-20T14:23:54+00:00"
+    },
     {
       "id": "e7100c93482f59cf99c8811bed74a723319617a816d918f08ad1360b03d2b207",
       "title": "How to Get the Sonic Sprite in Fortnite",
@@ -16,6 +296,14 @@
       "source": "Eurogamer",
       "category": "site",
       "published": "2026-08-20T14:20:46+00:00"
+    },
+    {
+      "id": "e61533ac443e8824892eaecf7bceb5db55010ccb6427a2a514514cd3dbb01497",
+      "title": "New Fallout Funko Pops Are Dropping in November, Including Vault Boy, Nuka-Girl, and More",
+      "link": "https://www.ign.com/articles/new-fallout-funko-pops-are-dropping-in-november-including-vault-boy-nuka-girl-and-more",
+      "source": "IGN",
+      "category": "site",
+      "published": "2026-08-20T14:20:36+00:00"
     },
     {
       "id": "7ece319b5a2e711d0770bc50ed87118b1339ec94f133de6f7e97ed5c9ca41386",
@@ -214,6 +502,14 @@
       "title": "The Duskbloods Preview: FromSoftware's Multiplayer Switch 2 Exclusive Is Special, Here's How It Plays",
       "link": "https://www.ign.com/articles/the-duskbloods-preview-hands-on-fromsoftware-switch-2-exclusive",
       "source": "IGN",
+      "category": "site",
+      "published": "2026-08-20T14:00:00+00:00"
+    },
+    {
+      "id": "ae52bf6605a1d807ed397a70e0de8b623d2e42a6cfe37515e82fe695bd9645a0",
+      "title": "FromSoftware’s The Duskbloods isn’t the “PvPvE” you’re probably imagining. Miyazaki talks game design, emphasis on “role-playing,” and offering enjoyment beyond pure skill",
+      "link": "https://automaton-media.com/en/interviews/fromsoftwares-the-duskbloods-isnt-the-pvpve-youre-probably-imagining-miyazaki-talks-game-design/",
+      "source": "Automaton",
       "category": "site",
       "published": "2026-08-20T14:00:00+00:00"
     },
@@ -490,6 +786,14 @@
       "published": "2026-08-20T13:00:00+00:00"
     },
     {
+      "id": "892adea9786e7848459df67b267e65dcc8c285171797c5e66e152e7523a7b1b7",
+      "title": "Adult sci-fi visual novel 2236 A.D. offers a bird’s eye perspective on the self and the other: Steam gems from Japan you might be missing out on",
+      "link": "https://automaton-media.com/en/column/adult-sci-fi-visual-novel-2236-a-d-offers-a-birds-eye-perspective-on-the-self-and-the-other-steam-gems-from-japan-you-might-be-missing-out-on/",
+      "source": "Automaton",
+      "category": "site",
+      "published": "2026-08-20T13:00:00+00:00"
+    },
+    {
       "id": "091511ef8a72396919e236352f1e5a0c3cccfb588d2165b320c5c6997447ab0d",
       "title": "Physical Video Game Dollar Sales Plunged to an All-Time July Low of Just $85 Million in the US",
       "link": "https://www.ign.com/articles/physical-video-game-dollar-sales-plunged-to-an-all-time-july-low-of-just-85-million-in-the-us",
@@ -560,14 +864,6 @@
       "source": "TheGamer",
       "category": "site",
       "published": "2026-08-20T12:40:56+00:00"
-    },
-    {
-      "id": "244315d36a3cbd528c8b2f15a2f98fe079d7692fcaefe277f89aa4f2ce136749",
-      "title": "All Fortnite lobby hack codes for admin panel",
-      "link": "https://www.pcgamesn.com/fortnite/lobby-hack-codes",
-      "source": "PCGamesN",
-      "category": "site",
-      "published": "2026-08-20T12:40:00+00:00"
     },
     {
       "id": "a6b6862d9ad5d6603f375522c9c423b9d913b11a58983866bdc1e4ddc8927fd5",
@@ -2104,302 +2400,6 @@
       "source": "r/gaming",
       "category": "reddit",
       "published": "2026-08-19T21:08:16+00:00"
-    },
-    {
-      "id": "8153e00a44c4c43775b8700eab19b3690d8aa6962a4dd9e6cb4ad3036d0364b8",
-      "title": "Marvel's Wolverine was inspired by one of the few video game movie tie-ins that doesn't suck: \"We had the same challenges as those devs\"",
-      "link": "https://www.gamesradar.com/games/action/marvels-wolverine-was-inspired-by-one-of-the-few-video-game-movie-tie-ins-that-doesnt-suck-we-had-the-same-challenges-as-those-devs/",
-      "source": "GamesRadar",
-      "category": "site",
-      "published": "2026-08-19T21:07:10+00:00"
-    },
-    {
-      "id": "9428ffa749e70f88fa8d9a95c999c8ad1e09e246bd0bf435f76aa9d51ea63131",
-      "title": "The Last of Us Online Was Not a 'Side Project,' Majority of Intergalactic's Team Came Over After Multiplayer Game Was Scrapped",
-      "link": "https://www.ign.com/articles/the-last-of-us-online-was-not-a-side-project-majority-of-intergalactics-team-came-over-after-multiplayer-game-was-scrapped",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T21:03:39+00:00"
-    },
-    {
-      "id": "cae43fec959a4d908001029ecf1a0c00f001d520735e9182abf9a3fabb21f14f",
-      "title": "5 Short Games Under 20 Hours",
-      "link": "https://www.polygon.com/best-games-under-20-hours/",
-      "source": "Polygon",
-      "category": "site",
-      "published": "2026-08-19T21:00:14+00:00"
-    },
-    {
-      "id": "e22a4eabbe3bd18dfb1a60f1674e7f032156b0c8927e2c3e2b258612d1271080",
-      "title": "Does Rockstar even care? wouldn't it be better just to launch an trailer early on?",
-      "link": "https://www.reddit.com/r/gaming/comments/1vsyt3a/does_rockstar_even_care_wouldnt_it_be_better_just/",
-      "source": "r/gaming",
-      "category": "reddit",
-      "published": "2026-08-19T20:53:04+00:00"
-    },
-    {
-      "id": "eff3a370e35b233d49ccceb57e72ffc632fb6b5f41a741b4d853653e867bef8a",
-      "title": "It's almost time to find out what FromSoftware and Miyazaki have been cooking with The Duskbloods.",
-      "link": "https://www.reddit.com/r/gaming/comments/1vsyoh3/its_almost_time_to_find_out_what_fromsoftware_and/",
-      "source": "r/gaming",
-      "category": "reddit",
-      "published": "2026-08-19T20:48:05+00:00"
-    },
-    {
-      "id": "26e611e9fc1751a13a8427d50cbd966b2189814bde60f9c85e1dd42cdfd79224",
-      "title": "Mortal Shell 2 Shells tier list: Best ones to use",
-      "link": "https://www.destructoid.com/mortal-shell-2-shells-tier-list/",
-      "source": "Destructoid",
-      "category": "site",
-      "published": "2026-08-19T20:47:20+00:00"
-    },
-    {
-      "id": "ee0511d8da0ecf89866dcac327e1100210e7223bf61cddfd9a470575b42d4ba0",
-      "title": "Kingdom Hearts 4 references a bit of OG lore so obscure I wouldn't have blamed Tetsuya Nomura for forgetting it",
-      "link": "https://www.gamesradar.com/games/kingdom-hearts/kingdom-hearts-4-references-a-bit-of-og-lore-so-obscure-i-wouldnt-have-blamed-tetsuya-nomura-for-forgetting-it/",
-      "source": "GamesRadar",
-      "category": "site",
-      "published": "2026-08-19T20:42:30+00:00"
-    },
-    {
-      "id": "8f42a2341ceb9b29745e33af83576afebbfba9da6d216d7d54517e03aedd7338",
-      "title": "Winnie the Pooh's Voice Actor Isn't Happy About Getting Snubbed by Disney's Hall of Legends",
-      "link": "https://www.ign.com/articles/winnie-the-poohs-voice-actor-isnt-happy-about-getting-snubbed-by-disneys-hall-of-legends",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T20:41:47+00:00"
-    },
-    {
-      "id": "b2b4d8d35acd6a3a986f37c9e2138c5505c0104ba27cc7671dad8e783061a328",
-      "title": "All items in Mortal Shell 2 and how they work",
-      "link": "https://www.destructoid.com/all-items-in-mortal-shell-2-and-how-they-work/",
-      "source": "Destructoid",
-      "category": "site",
-      "published": "2026-08-19T20:37:52+00:00"
-    },
-    {
-      "id": "fb8c7dd37c7913ad379ac723c3e6883d17c2d826416824952b4cb2ef4ad77d65",
-      "title": "Obsession star reportedly turned down Michael Mann's Heat 2 to star as Rogue in Marvel's X-Men",
-      "link": "https://www.gamesradar.com/entertainment/marvel-movies/obsession-star-reportedly-turned-down-michael-manns-heat-2-to-star-as-rogue-in-marvels-x-men/",
-      "source": "GamesRadar",
-      "category": "site",
-      "published": "2026-08-19T20:36:53+00:00"
-    },
-    {
-      "id": "66274f3cf6af7bd38cba7cf09ef666b8c6b379c4a7bf7041e83c107b0ec884bf",
-      "title": "The Pixar Ball Gets a Massive Size Upgrade at the Disney Store for Its 40th Anniversary",
-      "link": "https://www.ign.com/articles/the-pixar-ball-gets-a-massive-size-upgrade-at-the-disney-store-for-its-40th-anniversary",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T20:35:51+00:00"
-    },
-    {
-      "id": "5018c98165c72fe532de63431635e00b38a8620326a589f328edf17bd0e8b1a3",
-      "title": "Magic’s Leaked Secret Lair Commander Deck Includes an Overpowered $60 Cyborg",
-      "link": "https://www.polygon.com/mtg-secret-lair-odds-and-ends-commander-decklist-leak/",
-      "source": "Polygon",
-      "category": "site",
-      "published": "2026-08-19T20:30:13+00:00"
-    },
-    {
-      "id": "d83b89869edaf056fcf4f07be10074ab9ce82454f68019fccccb88dee994bf3f",
-      "title": "MrBeast Meets 'Battle Royale' In New Thriller From GenZ's Next Great Director",
-      "link": "https://www.polygon.com/alex-ullom-4-x-4-the-event-movie-plot-cast/",
-      "source": "Polygon",
-      "category": "site",
-      "published": "2026-08-19T20:13:53+00:00"
-    },
-    {
-      "id": "847b22c87845c2c12b28f469a2971226fb1ca50adaee391f23189f68f43564b7",
-      "title": "Witcher 3 Dev Explains How Ultra Realistic NPCs Created Weird Problems: ‘Women Were Just Dropping Their Babies Left And Right’",
-      "link": "https://kotaku.com/witcher-3-dev-explains-how-ultra-realistic-npcs-created-weird-problems-women-were-just-dropping-their-babies-left-and-right-2000725923",
-      "source": "Kotaku",
-      "category": "site",
-      "published": "2026-08-19T20:13:01+00:00"
-    },
-    {
-      "id": "b022917499fccf0493194dd12b3c4a44d60f5a91c8384d5a706024c6e304d52c",
-      "title": "Save $320 off Bose's Biggest and Most Immersive Soundbar With Dolby Atmos and TrueSpace Technology",
-      "link": "https://www.ign.com/articles/bose-smart-ultra-dolby-atmos-soundbar-deal-august-2026",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T20:05:00+00:00"
-    },
-    {
-      "id": "77f7ce176c398d1b82bf2c62dbd8a4b61a3f62f63f82b47df4af14e1275ff9e1",
-      "title": "Inde Navarrette Reportedly Passed Up a Role in Heat 2 for Marvel Studio's X-Men Movie",
-      "link": "https://www.ign.com/articles/inde-navarrette-reportedly-passed-up-a-role-in-heat-2-for-marvel-studios-x-men-movie",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T20:03:12+00:00"
-    },
-    {
-      "id": "b4e947b387b370375d6e63fdfa9ebe43cca3277d5d66eb3f8712d1878c4adb66",
-      "title": "10 Best Dark Fantasy Books for Fans of the Witcher and Game of Thrones",
-      "link": "https://www.polygon.com/best-dark-fantasy-books-like-the-witcher-game-of-thrones/",
-      "source": "Polygon",
-      "category": "site",
-      "published": "2026-08-19T20:00:51+00:00"
-    },
-    {
-      "id": "d03b9e95381366af17ac3cd04bb88584c20e8a6b50bcf947fb8f55b04b7c48f8",
-      "title": "BG3 meets Fire Emblem in a Steamy New Steam RPG",
-      "link": "https://www.polygon.com/ledgerbound-tactical-rpg-insurance-dating-sim/",
-      "source": "Polygon",
-      "category": "site",
-      "published": "2026-08-19T20:00:13+00:00"
-    },
-    {
-      "id": "5792fa10a81f1cc39461e09d60c773ff6b5ca714218d6c7c2cb670000421c02f",
-      "title": "'I Think We'll See That in the Next Year or Two': Days Gone Dev Could Reveal New Project Soon",
-      "link": "https://www.pushsquare.com/news/2026/08/i-think-well-see-that-in-the-next-year-or-two-days-gone-dev-could-reveal-new-project-soon",
-      "source": "Push Square",
-      "category": "site",
-      "published": "2026-08-19T20:00:00+00:00"
-    },
-    {
-      "id": "609b7d983d0128197ccf4996560ff04747ec117ed745fd1acc02b861c1c55738",
-      "title": "Modern Warfare 4 beta PC Specs: Minimum and recommended requirements",
-      "link": "https://dotesports.com/call-of-duty/guides/modern-warfare-4-pc-specs",
-      "source": "Dot Esports",
-      "category": "site",
-      "published": "2026-08-19T19:58:45+00:00"
-    },
-    {
-      "id": "aaa031551c3bcd548ac196455baf06e53ca75e99df16a59544c835c5bcc96e46",
-      "title": "Sony reportedly reverses course on live service co-op Horizon game after 'negative player feedback'",
-      "link": "https://www.pcgamer.com/games/action/sony-reportedly-reverses-course-on-live-service-co-op-horizon-game-after-negative-player-feedback/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-19T19:54:21+00:00"
-    },
-    {
-      "id": "58c3ceca720c4d5384a20d313fe5866ef09746d31c1bf4209914b4245f8040ba",
-      "title": "GTA 6 cars need gas? OK, I'm finally on board",
-      "link": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cars-need-gas-ok-im-finally-on-board/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-19T19:52:57+00:00"
-    },
-    {
-      "id": "694a56d6bbb69796d72519a1debef2b3b5fc0b2cc210653de77ad8071d06fd28",
-      "title": "Wolverine: Origin III Explores Marvel's Controversial Prequel Arc",
-      "link": "https://www.ign.com/articles/wolverine-origin-iii-explores-marvels-controversial-prequel-arc",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T19:47:32+00:00"
-    },
-    {
-      "id": "8f3388b40e8b3ba1e67b09c5bf0ea6d967d06a14b4bfa757d23685f47e3c7fa6",
-      "title": "All Ailments and Status Effects in Mortal Shell 2",
-      "link": "https://www.destructoid.com/all-ailments-and-status-effects-in-mortal-shell-2/",
-      "source": "Destructoid",
-      "category": "site",
-      "published": "2026-08-19T19:46:43+00:00"
-    },
-    {
-      "id": "0921c10a7554838585a57ed0c46b8682acd9acb2b1d2484bc1c5a322b43ea6c0",
-      "title": "Heart of Mycelium - Official Gameplay Trailer",
-      "link": "https://www.reddit.com/r/gaming/comments/1vswvlf/heart_of_mycelium_official_gameplay_trailer/",
-      "source": "r/gaming",
-      "category": "reddit",
-      "published": "2026-08-19T19:42:21+00:00"
-    },
-    {
-      "id": "5b7e7e35b190463da78f39e80abaa448e04a850b8e7314ae5fb9c81e96942d56",
-      "title": "\"If people weren't playing No Man's Sky, I don't think we would want to do updates,\" says Sean Murray, but he'd probably try to sneak in more content years later anyway",
-      "link": "https://www.gamesradar.com/games/survival/if-people-werent-playing-no-mans-sky-i-dont-think-we-would-want-to-do-updates-says-sean-murray-but-hed-probably-try-to-sneak-in-more-content-years-later-anyway/",
-      "source": "GamesRadar",
-      "category": "site",
-      "published": "2026-08-19T19:36:26+00:00"
-    },
-    {
-      "id": "179ed884c6463d74efb2b2a13ecddef01cc071a5887322c519122268c092cba3",
-      "title": "Silver Pines Preview: It Plays and Looks Like If Alan Wake Were Made in the ‘90s",
-      "link": "https://www.ign.com/articles/silver-pines-preview-it-plays-and-looks-like-if-alan-wake-were-made-in-the-90s",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T19:35:22+00:00"
-    },
-    {
-      "id": "7404d3c591bd39a83141e5cc955ff855beb10b1968f7a4da4de8f28fd4171ee6",
-      "title": "Stop Killing Games distances itself from GTA 6 leak manifesto: 'Using illegal means to make a point is unacceptable to us'",
-      "link": "https://www.pcgamer.com/games/grand-theft-auto/stop-killing-games-distances-itself-from-gta-6-leak-manifesto-using-illegal-means-to-make-a-point-is-unacceptable-to-us/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-19T19:34:09+00:00"
-    },
-    {
-      "id": "ccce0b15aae64ec30edad172b149fbbb495cedff07e73a4b40acab2cc05df6a7",
-      "title": "Sony reportedly strips live-service elements from Horizon multiplayer game",
-      "link": "https://dotesports.com/general/news/sony-reportedly-strips-live-service-elements-from-horizon-multiplayer-game",
-      "source": "Dot Esports",
-      "category": "site",
-      "published": "2026-08-19T19:29:42+00:00"
-    },
-    {
-      "id": "778a35362d74f8daec1a7f45c13c8bcbc7054de00289cc07a92b9d828837fc66",
-      "title": "Metal Gear Solid Mod Makes It Playable In Co-Op",
-      "link": "https://www.thegamer.com/metal-gear-solid-mgs-coop-mod-fan/",
-      "source": "TheGamer",
-      "category": "site",
-      "published": "2026-08-19T19:28:21+00:00"
-    },
-    {
-      "id": "29b01dd1e08eaa70fb5e4d610fa65178913c78564b1406a6fef5e19e2675a881",
-      "title": "The Witcher 3 NPCs Kept Dropping Their Babies Due to an Unintended Side Effect of a Cut Mechanic",
-      "link": "https://www.ign.com/articles/the-witcher-3-npcs-kept-dropping-their-babies-due-to-an-unintended-side-effect-of-a-cut-mechanic",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T19:16:25+00:00"
-    },
-    {
-      "id": "cf528ef28911dddce930469e7dee381b39d72ca020dda01af41c871773d6ef6a",
-      "title": "Majority of Naughty Dog Was Working on The Last of Us Online Before It Was Cancelled",
-      "link": "https://www.pushsquare.com/news/2026/08/majority-of-naughty-dog-was-working-on-the-last-of-us-online-before-it-was-cancelled",
-      "source": "Push Square",
-      "category": "site",
-      "published": "2026-08-19T19:15:00+00:00"
-    },
-    {
-      "id": "c5f88825a6377cb81caed2bf8a9ae640a3f5de2327a344be7ef0922edcbf8066",
-      "title": "The Pokémon Center Just Dropped Its 2026 Halloween Collection",
-      "link": "https://www.ign.com/articles/pokemon-center-halloween-collection-2026",
-      "source": "IGN",
-      "category": "site",
-      "published": "2026-08-19T19:13:06+00:00"
-    },
-    {
-      "id": "78216c2369b7275ed61e18e1458aa3250f96175631b3e5edc26d95fd9904199c",
-      "title": "After cranking up the difficulty, I am once again asking: How many of these games with pixel art styles can you identify?",
-      "link": "https://www.pcgamer.com/games/after-cranking-up-the-difficulty-i-am-once-again-asking-how-many-of-these-games-with-pixel-art-styles-can-you-identify/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-19T19:12:18+00:00"
-    },
-    {
-      "id": "df36a37a03b5f74d364b75a867df6d85cf6ace693aaf1012ba601a88fe5b9539",
-      "title": "Despite calls for Aaron Pierre to be the next James Bond, Lanterns co-star hopes he's the Green Lantern for \"many years to come\"",
-      "link": "https://www.gamesradar.com/entertainment/dc-tv-shows/despite-calls-for-aaron-pierre-to-be-the-next-james-bond-lanterns-co-star-hopes-hes-the-green-lantern-for-many-years-to-come/",
-      "source": "GamesRadar",
-      "category": "site",
-      "published": "2026-08-19T19:00:00+00:00"
-    },
-    {
-      "id": "c822c42f64652e20ca6d9528c15fd8c39a78414cfe572e6bde1f77a75b953239",
-      "title": "EA employees brace for the worst under Saudi ownership: 'Hard to feel good about being bought out by a regime that's very much at odds with progressive society'",
-      "link": "https://www.reddit.com/r/gaming/comments/1vsviuy/ea_employees_brace_for_the_worst_under_saudi/",
-      "source": "r/gaming",
-      "category": "reddit",
-      "published": "2026-08-19T18:53:50+00:00"
-    },
-    {
-      "id": "f8837706a902cb3d14ff9394cf936cd068e3ce8f64dd850396675d77cb94e89f",
-      "title": "LoL Patch 26.17 notes: Vayne and Xerath nerfed, Yasuo and Yone buffed",
-      "link": "https://dotesports.com/league-of-legends/guides/lol-patch-26-17-patch-notes",
-      "source": "Dot Esports",
-      "category": "site",
-      "published": "2026-08-19T18:53:15+00:00"
     }
   ]
 }
