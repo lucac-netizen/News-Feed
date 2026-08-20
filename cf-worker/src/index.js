@@ -145,26 +145,44 @@ async function pollOnce(env) {
   // flap in and out between checks during testing.
   const lockHeld = await env.FEED_KV.get(LOCK_KEY);
   if (lockHeld) {
-    console.log("[info] skipping run -- a poll is already in progress");
+    // Diagnostic only, piggybacking on the skip (no extra write vs. what a
+    // full run would have cost) -- lets /feed.json report how often and
+    // how long cycles are overlapping, instead of guessing from timestamps.
+    const heldSinceMs = Date.parse(lockHeld);
+    const ageMs = Number.isFinite(heldSinceMs) ? Date.now() - heldSinceMs : null;
+    console.log(`[info] skipping run -- a poll has been in progress for ${ageMs}ms`);
+    await env.FEED_KV.put(
+      "poll:last_skip",
+      JSON.stringify({ skipped_at: new Date().toISOString(), previous_run_age_ms: ageMs })
+    );
     return;
   }
-  await env.FEED_KV.put(LOCK_KEY, "1", { expirationTtl: LOCK_TTL_SECONDS });
+  const startedAt = new Date();
+  await env.FEED_KV.put(LOCK_KEY, startedAt.toISOString(), { expirationTtl: LOCK_TTL_SECONDS });
 
   try {
-    await pollOnceLocked(env);
+    await pollOnceLocked(env, startedAt);
   } finally {
     await env.FEED_KV.delete(LOCK_KEY);
   }
 }
 
-async function pollOnceLocked(env) {
+async function pollOnceLocked(env, startedAt) {
   const stored = (await env.FEED_KV.get(FEED_KEY, "json")) || { items: [], seenIds: [] };
   const seenSet = new Set(stored.seenIds || []);
   const existingById = new Map((stored.items || []).map((it) => [it.id, it]));
 
+  // Reddit first, publisher sites last: Reddit's rate-limit backoff can eat
+  // several minutes of a cycle, and whatever is fetched right before the
+  // single KV write at the end is the freshest data users actually see.
+  // Fetching fast-moving sites first (as originally written) meant their
+  // already-fresh data sat waiting, invisible, for however long Reddit's
+  // retries took -- directly inflating the "how old is the newest item"
+  // number for no reason, since sites don't need Reddit's slowness to
+  // become their own staleness.
   const allSources = [
-    ...sources.sites.map((s) => ({ ...s, category: "site" })),
     ...sources.reddit.map((s) => ({ ...s, category: "reddit" })),
+    ...sources.sites.map((s) => ({ ...s, category: "site" })),
   ];
 
   const allFetched = [];
@@ -207,12 +225,15 @@ async function pollOnceLocked(env) {
     seenIds = [...keep].slice(0, MAX_SEEN_IDS);
   }
 
+  const finishedAt = new Date();
   await env.FEED_KV.put(
     FEED_KEY,
     JSON.stringify({
-      generated_at: new Date().toISOString(),
+      generated_at: finishedAt.toISOString(),
       items: combined,
       seenIds,
+      poll_started_at: startedAt.toISOString(),
+      poll_duration_ms: finishedAt.getTime() - startedAt.getTime(),
     })
   );
 
@@ -238,9 +259,17 @@ export default {
         generated_at: null,
         items: [],
       };
-      return new Response(JSON.stringify({ generated_at: stored.generated_at, items: stored.items }), {
-        headers: { "content-type": "application/json", "cache-control": "no-store" },
-      });
+      const lastSkip = await env.FEED_KV.get("poll:last_skip", "json");
+      return new Response(
+        JSON.stringify({
+          generated_at: stored.generated_at,
+          items: stored.items,
+          poll_started_at: stored.poll_started_at,
+          poll_duration_ms: stored.poll_duration_ms,
+          last_skip: lastSkip || null,
+        }),
+        { headers: { "content-type": "application/json", "cache-control": "no-store" } }
+      );
     }
 
     if (url.pathname === "/poll-now") {
