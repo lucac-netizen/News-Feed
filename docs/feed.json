@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:40:18.772043+00:00",
+  "generated_at": "2026-08-20T05:14:58.297293+00:00",
   "items": [
     {
       "id": "fdd436af89f2ddad5fd2099321b02e4f079d0fe2f22f5193d5a4160b484901c8",
@@ -16,6 +16,14 @@
       "source": "Dot Esports",
       "category": "site",
       "published": "2026-08-20T04:30:29+00:00"
+    },
+    {
+      "id": "466715fba09abe9b1689d9e45fe33c908162d7093b071105a2a73cb2684a27cb",
+      "title": "Pokémon Pokopia's Expansion Pass Is Getting A Packaged Download Release",
+      "link": "https://www.nintendolife.com/news/2026/08/pokemon-pokopias-expansion-pass-is-getting-a-packaged-download-release",
+      "source": "Nintendo Life",
+      "category": "site",
+      "published": "2026-08-20T04:30:00+00:00"
     },
     {
       "id": "e1a1c21807c948509e045c5b5a50496e1e987e30b5fa46ba38b48f12b31efb10",
@@ -2392,14 +2400,6 @@
       "source": "Eurogamer",
       "category": "site",
       "published": "2026-08-18T14:39:08+00:00"
-    },
-    {
-      "id": "58dea1d994cad3bcc410553444b040b79c8115271f1564e3bc77b511523d5e4a",
-      "title": "San Diego Border Roleplay codes (August 2026)",
-      "link": "https://www.pcgamesn.com/roblox/san-diego-border-roleplay-codes",
-      "source": "PCGamesN",
-      "category": "site",
-      "published": "2026-08-18T14:35:23+00:00"
     }
   ]
 }
