@@ -123,6 +123,10 @@
   .age-mild  { color: var(--mild); }
   .age-stale { color: var(--stale); }
 
+  .lag-cell { font-weight: 700; font-size: 11px; text-align: right; white-space: nowrap; }
+  .lag-first  { color: var(--hot); }
+  .lag-follow { color: var(--muted); }
+
   .source-cell { white-space: nowrap; font-size: 11px; color: var(--muted); }
 
   .headline-cell a { text-decoration: none; color: var(--text); font-size: 12px; }
@@ -138,6 +142,7 @@
     <button class="tab active" data-cat="">ALL</button>
     <button class="tab" data-cat="site">SITES</button>
     <button class="tab" data-cat="reddit">REDDIT</button>
+    <button class="tab" data-cat="stories">STORIES</button>
   </div>
   <input type="search" id="q" placeholder="filter...">
 </div>
@@ -152,7 +157,7 @@
   <table>
     <thead>
       <tr>
-        <th class="col-age">Age</th>
+        <th class="col-age" id="colAge">Age</th>
         <th class="col-source">Source</th>
         <th>Headline</th>
       </tr>
@@ -206,15 +211,69 @@ function groupRowHtml(label) {
   return `<tr class="group-row"><td colspan="3">${label}</td></tr>`;
 }
 
+function lagText(iso, baseIso) {
+  const diffMin = Math.round((new Date(iso).getTime() - new Date(baseIso).getTime()) / 60000);
+  if (diffMin < 60) return '+' + diffMin + 'm';
+  const hrs = Math.floor(diffMin / 60);
+  const mins = diffMin % 60;
+  return '+' + hrs + 'h' + (mins ? ' ' + mins + 'm' : '');
+}
+
+function storyGroupHtml(items) {
+  const first = items[0];
+  const rows = items.map((it, idx) => {
+    const label = idx === 0 ? 'FIRST' : lagText(it.published, first.published);
+    const lagClass = idx === 0 ? 'lag-first' : 'lag-follow';
+    return `<tr class="item-row">
+      <td class="lag-cell ${lagClass}">${label}</td>
+      <td class="source-cell">${escapeHtml(it.source)}</td>
+      <td class="headline-cell"><a href="${it.link}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a></td>
+    </tr>`;
+  }).join('');
+  return groupRowHtml(escapeHtml(first.title)) + rows;
+}
+
+function renderStories(items, q) {
+  const list = document.getElementById('list');
+  const filtered = items.filter(it =>
+    !q || it.title.toLowerCase().includes(q) || it.source.toLowerCase().includes(q)
+  );
+
+  const byStory = new Map();
+  for (const it of filtered) {
+    if (!it.story_id) continue;
+    if (!byStory.has(it.story_id)) byStory.set(it.story_id, []);
+    byStory.get(it.story_id).push(it);
+  }
+
+  const groups = [...byStory.values()]
+    .filter(g => g.length >= 2)
+    .map(g => g.slice().sort((a, b) => a.published < b.published ? -1 : 1))
+    .sort((a, b) => new Date(b[b.length - 1].published) - new Date(a[a.length - 1].published));
+
+  if (!groups.length) {
+    list.innerHTML = '<tr><td colspan="3" class="empty">No multi-source stories detected yet (needs 2+ sources with closely matching headlines).</td></tr>';
+    return;
+  }
+  list.innerHTML = groups.map(storyGroupHtml).join('');
+}
+
 function render(items) {
   const q = document.getElementById('q').value.trim().toLowerCase();
+  const list = document.getElementById('list');
+  document.getElementById('colAge').textContent = activeCat === 'stories' ? 'Lag' : 'Age';
+
+  if (activeCat === 'stories') {
+    renderStories(items, q);
+    return;
+  }
+
   const filtered = items.filter(it => {
     if (activeCat && it.category !== activeCat) return false;
     if (q && !(it.title.toLowerCase().includes(q) || it.source.toLowerCase().includes(q))) return false;
     return true;
   });
 
-  const list = document.getElementById('list');
   if (!filtered.length) {
     list.innerHTML = '<tr><td colspan="3" class="empty">No items match.</td></tr>';
     return;
