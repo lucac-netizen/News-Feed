@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-20T03:57:13.491085+00:00",
+  "generated_at": "2026-08-20T04:40:18.772043+00:00",
   "items": [
+    {
+      "id": "fdd436af89f2ddad5fd2099321b02e4f079d0fe2f22f5193d5a4160b484901c8",
+      "title": "Dota 2 The International 2026: Schedule, results, standings, teams, and how to watch",
+      "link": "https://dotesports.com/dota-2/news/dota-2-ti-2026-schedule-results",
+      "source": "Dot Esports",
+      "category": "site",
+      "published": "2026-08-20T04:33:33+00:00"
+    },
+    {
+      "id": "a67f90ab234063bed67c53d2607b15af22d00fcf510fd23215969975eb72f5d5",
+      "title": "CoD players criticize Modern Warfare 4 Beta matchmaking system and disbanding lobbies",
+      "link": "https://dotesports.com/call-of-duty/news/mw4-beta-matchmaking-disbanding-lobbies-criticized",
+      "source": "Dot Esports",
+      "category": "site",
+      "published": "2026-08-20T04:30:29+00:00"
+    },
+    {
+      "id": "e1a1c21807c948509e045c5b5a50496e1e987e30b5fa46ba38b48f12b31efb10",
+      "title": "Is this a good deal or no?",
+      "link": "https://www.reddit.com/r/gaming/comments/1vt9af1/is_this_a_good_deal_or_no/",
+      "source": "r/gaming",
+      "category": "reddit",
+      "published": "2026-08-20T04:25:41+00:00"
+    },
     {
       "id": "4d19b2eab0ac950f38736043ac9f5ddaf5bfdf871c9b65535b359da9c37955b7",
       "title": "ECLIPSE: The Awakening | Official In-Game Trailer",
@@ -2376,30 +2400,6 @@
       "source": "PCGamesN",
       "category": "site",
       "published": "2026-08-18T14:35:23+00:00"
-    },
-    {
-      "id": "1a8841ca723da6cad109c921d679121677abfc994402b63c600e88fca8c5e59a",
-      "title": "The Big Marketing Push for PS5 Exclusive Marvel's Wolverine Has Begun in Style",
-      "link": "https://www.pushsquare.com/news/2026/08/the-big-marketing-push-for-ps5-exclusive-marvels-wolverine-has-begun-in-style",
-      "source": "Push Square",
-      "category": "site",
-      "published": "2026-08-18T14:30:00+00:00"
-    },
-    {
-      "id": "8d4a12c7a964f1b2b32c51fce5dd698b029c24071d79dd68d988fef570346fcb",
-      "title": "Microsoft is finally letting us turn the Windows 11 right-click context menu into something more like Windows 10",
-      "link": "https://www.pcgamer.com/software/windows/microsoft-is-finally-letting-us-turn-the-windows-11-right-click-context-menu-into-something-more-like-windows-10/",
-      "source": "PC Gamer",
-      "category": "site",
-      "published": "2026-08-18T14:11:22+00:00"
-    },
-    {
-      "id": "c71ebcfe415e5425039be9994f71653eb38394f10c27c92e02f804096c3de577",
-      "title": "Mobile Suit Gundam creator Yoshiyuki Tomino suggests modern anime and films lack a sense of wonder. “We’ve forgotten the principles of direction and storytelling.”",
-      "link": "https://automaton-media.com/en/news/mobile-suit-gundam-creator-yoshiyuki-tomino-suggests-modern-anime-and-films-lack-a-sense-of-wonder-weve-forgotten-the-principles-of-direction-and-storytelling/",
-      "source": "Automaton",
-      "category": "site",
-      "published": "2026-08-18T14:00:00+00:00"
     }
   ]
 }
