@@ -8,7 +8,12 @@ globs = ["**/*.html"]
 fallthrough = true
 
 [triggers]
-crons = ["*/5 * * * *"]
+# Hourly safety-net only -- the primary trigger is an external scheduler
+# hitting /poll-now every 5 minutes (see cf-worker/README.md). Cloudflare's
+# own Cron Trigger showed multi-hour silent gaps in production (confirmed
+# via poll:last_error/poll:last_skip diagnostics both staying empty across
+# the gap, ruling out a crash or lock issue), so it's demoted to backup.
+crons = ["0 * * * *"]
 
 [[kv_namespaces]]
 binding = "FEED_KV"
